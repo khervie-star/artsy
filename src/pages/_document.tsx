@@ -37,7 +37,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content={"https://artsy.vercel.app/artsy.png"}
+          content={"https://artsy.vercel.app/artsy.jpg"}
         />
       </Head>
 
