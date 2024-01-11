@@ -27,7 +27,7 @@ export default function Document() {
           href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:url" content="https://artsy.vercel.app" />
+        <meta property="og:url" content="https://artsy-fr.vercel.app" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="ARTSY | Photography is poetry" />
         <meta property="twitter:card" content="summary" />
@@ -37,7 +37,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content={"https://artsy.vercel.app/artsy.jpg"}
+          content={"https://artsy-fr.vercel.app/artsy.jpg"}
         />
       </Head>
 
