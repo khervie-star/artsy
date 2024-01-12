@@ -27,17 +27,17 @@ const Navbar = () => {
               Marketplace
             </Link>
             <Link
-              href="/Auctions"
+              href="/auctions"
               className={`${
-                router.pathname == "/Auctions" &&
+                router.pathname == "/auctions" &&
                 "border-artsy-black border-b-2 border-solid"
               }`}>
               Auctions
             </Link>
             <Link
-              href="/Drops"
+              href="/drops"
               className={`${
-                router.pathname == "/Drops" &&
+                router.pathname == "/drops" &&
                 "border-artsy-black border-b-2 border-solid"
               }`}>
               Drop

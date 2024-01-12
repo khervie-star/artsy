@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { CartIcon, NotificationIcon, SearchIcon } from "@/assets/icons";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import HomePage from "./Home";
+import HomePage from "./home";
 
 export default function Home() {
   return (

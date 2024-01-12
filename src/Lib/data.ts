@@ -10,6 +10,10 @@ import featuredProducts1 from "../assets/images/featuredImages1.png";
 import featuredProducts2 from "../assets/images/featuredImages2.png";
 import featuredProducts3 from "../assets/images/featuredImages3.png";
 
+import current_auctions_1 from "../../public/images/current_auctions_1.jpeg";
+import current_auctions_2 from "../../public/images/current_auctions_2.jpeg";
+import current_auctions_3 from "../../public/images/current_auctions_3.jpeg";
+
 export const drops = [
   {
     id: 1,
@@ -20,6 +24,7 @@ export const drops = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Amet odio a aenean quis vitae tempus. Sed nunc tempus aliquet lectus ut vulputate.",
     image: drop1,
+    time_rem: "06  hrs : 45 min : 22 s",
   },
   {
     id: 2,
@@ -30,6 +35,7 @@ export const drops = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Amet odio a aenean quis vitae tempus. Sed nunc tempus aliquet lectus ut vulputate.",
     image: drop2,
+    time_rem: "06  hrs : 45 min : 22 s",
   },
   {
     id: 3,
@@ -40,6 +46,7 @@ export const drops = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Amet odio a aenean quis vitae tempus. Sed nunc tempus aliquet lectus ut vulputate.",
     image: drop3,
+    time_rem: "2 hours ago",
   },
   {
     id: 4,
@@ -50,6 +57,7 @@ export const drops = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Amet odio a aenean quis vitae tempus. Sed nunc tempus aliquet lectus ut vulputate.",
     image: drop3,
+    time_rem: "2 hours ago",
   },
 ];
 
@@ -73,6 +81,21 @@ export const topBids = [
     currentBid: "0.99 ETH",
     liked: true,
     image: bid2,
+  },
+];
+
+export const current_auctions = [
+  {
+    time_left: "6hr : 40mins: 15s",
+    image: "/images/current_auctions_1.jpeg",
+  },
+  {
+    time_left: "6hr : 40mins: 15s",
+    image: "/images/current_auctions_1.jpeg",
+  },
+  {
+    time_left: "6hr : 40mins: 15s",
+    image: "/images/current_auctions_1.jpeg",
   },
 ];
 
